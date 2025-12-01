@@ -10,7 +10,7 @@ Features: product browsing, search & filters, cart, checkout, authentication, an
 ## Demo
 **Live site:** https://e-commerce-website-alpha-snowy.vercel.app/
 
-![Demo Screenshot](./path/to/screenshot.png) <!-- optional: add a screenshot file in repo and update path -->
+
 
 ---
 
