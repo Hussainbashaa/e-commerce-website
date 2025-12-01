@@ -23,6 +23,15 @@ Features: product browsing, search & filters, cart, checkout, authentication, an
 ---
 
 ## How to run locally
-```bash
-# clone
-git clone https://github.com/<your-username>/<your-repo>.git
+# Clone the repo
+git clone https://github.com/Hussainbashaa/e-commerce-website.git
+
+# Go into the project folder
+cd e-commerce-website
+
+# Install dependencies (if client/server separated, install inside both)
+npm install
+
+# Start development server
+npm run dev
+
