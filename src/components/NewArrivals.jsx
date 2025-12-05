@@ -22,7 +22,6 @@ const NewArrivals = () => {
         const data = await res.json();
 
         if (data?.products) {
-          // Shuffle and take 12 random items
           const shuffled = data.products
             .sort(() => 0.5 - Math.random())
             .slice(0, 12);

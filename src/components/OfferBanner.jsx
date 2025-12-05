@@ -19,10 +19,8 @@ const OfferBanner = () => {
           className="w-full h-64 object-cover opacity-80 dark:opacity-50"
         />
 
-        {/*  Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/20 to-transparent dark:from-black/70 dark:via-black/40 dark:to-transparent" />
 
-        {/*  Offer Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
