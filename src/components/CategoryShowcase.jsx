@@ -15,7 +15,9 @@ const CategoryShowcase = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/products");
+        const res = await fetch(
+          "https://e-commerce-shop-rho-six.vercel.app/api/products"
+        );
         const data = await res.json();
 
         const products = data?.products || [];

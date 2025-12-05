@@ -63,7 +63,7 @@ const ItemPage = () => {
 
       {!loading && items.length > 0 && (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {items.map((item, i) => {
+          {items.map((item) => {
             const id = item._id || item.id;
             const img =
               Array.isArray(item.images) && item.images.length

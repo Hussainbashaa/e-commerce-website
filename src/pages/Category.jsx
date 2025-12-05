@@ -12,7 +12,7 @@ const Category = ({ theme }) => {
     const fetchCategoryProducts = async () => {
       try {
         const res = await fetch(
-          `https://e-commerce-shop-rho-six.vercel.app/api/product/allproducts/search?query=${name}`
+          `https://e-commerce-shop-rho-six.vercel.app/api/product/search?query=${name}`
         );
         const data = await res.json();
         if (Array.isArray(data)) setProducts(data);
